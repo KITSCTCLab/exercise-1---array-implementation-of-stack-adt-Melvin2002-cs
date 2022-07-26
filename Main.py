@@ -33,7 +33,7 @@ class Stack:
             self.top-=1
 
     def status(self):
-        for i in range(len(self.items)):
+        for i in range(self.top+1):
             print(self.items[i])
 
 # Do not change the following code
